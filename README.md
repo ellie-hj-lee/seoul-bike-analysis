@@ -26,17 +26,18 @@ Living in Seoul, I noticed that people seem to ride public bikes not just to get
 **1. Rentals peak at commuting times on weekdays.**
 On weekdays, rentals have two clear peaks, around 8am and 6pm. On weekends, there are no sharp peaks, and rentals rise slowly to their highest around 4pm. This pattern is consistent with people commuting on weekdays, although the data can't show why people ride.
 
-![Average bike rentals by hour: weekdays vs weekends](images/weekday_vs_weekend.png)
+![Average bike rentals by hour: weekdays vs weekends](weekday_vs_weekend.png)
 
 **2. Warmer weather means more rentals.**
 Average rentals rise as the temperature gets warmer. This was still true when I compared only weekdays at 6pm, so it isn't just because warm hours happen in the afternoon.
 
-![Average bike rentals by temperature: weekdays at 6pm only](images/temperature_6pm.png)
+![Average bike rentals by temperature: weekdays at 6pm only](temperature_6pm.png)
 
 **3. Rain cuts rentals sharply.**
 Rainy hours have **78% fewer rentals** on average than dry hours, and rentals are lower during rain at every hour of the day.
 
-![Average bike rentals by hour: rainy vs dry hours](images/rain_vs_dry.png)
+
+![Average bike rentals by hour: rainy vs dry hours](rain_vs_dry.png)
 
 **What this could mean for Ttareungyi:** The system could make sure stations are well stocked before the 8am and 6pm weekday peaks. Quiet early-morning hours (around 4–5am) may be a good time for repairs. Since this dataset has no location information, a useful next step would be to check with station-level data whether these peaks are concentrated around subway stations and office areas.
 
@@ -68,5 +69,5 @@ seoul-bike-analysis/
 ├── README.md                  ← this file
 ├── seoul_bike_analysis.ipynb  ← all the code, notes and charts
 ├── requirements.txt           ← Python packages needed
-└── images/                    ← charts used in this README
+└── *.png                   ← charts used in this README
 ```
